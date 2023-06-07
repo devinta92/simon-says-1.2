@@ -1,0 +1,61 @@
+body {
+  height: 100%;
+  background-image: url("background.png");
+  background-size: cover;
+  text-align: center;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 128px;
+  color: #ffff;
+  margin-top: 30%;
+  display: inline-block;
+}
+
+button {
+  width: 50%;
+  padding: 20px;
+  font-size: 40px;
+  background-color: green;
+  border-radius: 50px;
+  list-style: none;
+  color: #ffff;
+}
+
+button:hover {
+  background-color: lightgreen;
+  color: black;
+}
+
+#level-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 5rem;
+  margin: 2%;
+  color: #ffff;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  padding: 50px;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 0 10px rgb(255, 243, 243);
+  background-color: rgb(76, 31, 114);
+}
